@@ -2,7 +2,8 @@ package First;
 import java.util.Arrays;
 public class UniqueDigits {
     public static void main(String[] args) {
-
+        
+        System.out.println("Java Program to Count No of Unique Digits for a given Number");
         //448684554
         int num = 443455848, k = -1, count = 0, var = -1, n = 0;
         int number = num;
@@ -16,7 +17,7 @@ public class UniqueDigits {
             num = num / 10;
         }
 
-        Arrays.sort(arr);
+        Arrays.sort(arr); 
 
         for (int i = 0; i < n; i++) {
             if (var == arr[i]) // Ignoring Duplicates
